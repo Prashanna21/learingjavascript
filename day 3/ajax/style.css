@@ -1,0 +1,88 @@
+/* Css Reset */
+
+*,::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html{
+    font-size: 62.50%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(35, 40, 42);
+}
+
+.main-div{
+    margin: 0 auto;
+    width: 60%;
+    max-width: 300px;
+    background-color: white;
+    padding: 1.5rem 4.5rem;
+    border-radius: 3rem;
+}
+
+#country-flag{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.top{
+    text-align: center;
+}
+
+#heading{
+    font-size: 1.7rem;
+
+}
+
+#sub-heading{
+    font-size: 1.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+hr{
+    position: relative;
+    margin-bottom: 1rem;
+    height: 0.1rem;
+    background-color: black;
+    border: none;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    align-self: center;
+    position: relative;
+    margin-top: 4rem;
+    width: 60%;
+    max-width: 300px;
+}
+
+.search input{
+    border-radius: 1em;
+    border: none;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.3rem 5.2rem;
+}
+
+svg{
+    position: absolute;
+    left: 5%;
+    top: 23%;
+}
+
