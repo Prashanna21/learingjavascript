@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: QuickSand;
+}
+
+.left-right-gap{
+    width: 90%;
+    margin: 0 auto;
+    }
+
+
+html{
+    font-size: 62.50%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+header{
+    position: fixed;
+    padding: 1.7rem 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #F7BC07;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+
+.sticky-note-icon{
+    font-size: 4rem;
+    
+}
+
+nav h1{
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.main-section-container{
+    padding-top: 4rem;
+
+    margin-top: 7.4rem;
+}
+
+.add-note{
+    cursor: pointer;
+    position: absolute;
+    right: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    transition: all ease-in 0.15s;
+}
+
+.add-note:hover{
+    background-color: #F7BC07;
+    color: white;
+
+    gap: 0.5;
+}
+
+.add-note:hover .add-note-btn{
+    
+}
+
+.add-note-btn{
+    background-color: #F7BC07;
+    border-radius: 20rem;
+    border: none;
+    padding: 1rem 1.2rem;
+}
+
+
+
+.add-note p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.add-note-btn i {
+    
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.notes-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.note-container{
+    padding: 1rem 0;
+    margin: 0;
+    width: 39rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.edit-delete-container{
+    padding: 0 0.5rem;
+    color: white;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.edit-delete-container textarea{
+    resize: none;
+    border: none;
+    height: 3.5rem;
+    font-size:2.6rem;
+    color: black;
+    font-weight: 900;
+}
+
+.edit-delete-container i{
+    font-size: 1.5rem;
+    background-color: red;
+    padding: 0.8rem 0.9rem;
+    border-radius: 2rem;
+   
+}
+
+.edit-icon{
+    background-color: green !important;
+    margin-right: 0.8rem;
+}
+
+
+.note-container .text{
+    height: 20rem;
+    resize: none;
+    width: 100%;
+    border: none;
+    padding: 0 0.4rem;
+    font-size: 1.8rem;
+}
+
